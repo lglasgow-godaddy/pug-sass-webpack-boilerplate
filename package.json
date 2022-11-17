@@ -1,0 +1,29 @@
+{
+  "name": "pug-sass-webby",
+  "version": "0.0.1",
+  "description": "A modern version of Pug, Sass and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --live-reload",
+    "build": "webpack build",
+    "watch": "webpack --progress --watch"
+  },
+  "keywords": [
+    "pug",
+    "sass"
+  ],
+  "author": "Lee Glasgow",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "pug": "^3.0.2",
+    "pug-plugin": "^4.5.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-hot-middleware": "^2.25.3"
+  }
+}
